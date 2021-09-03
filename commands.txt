@@ -25,6 +25,9 @@ password-suyog
 #####################
 ##### ViewSets
 ###-->When to use it?
---
+--A simple CRUD interface to your database
+--A quick and simple API
+--Little to no customization on the logic
+--Working with standard data structures
 
 
