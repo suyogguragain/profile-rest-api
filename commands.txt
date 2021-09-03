@@ -9,3 +9,7 @@ django-admin startproject profiles_project .
 python manage.py startapp profiles_api
 python manage.py runserver 0.0.0.0:8000     # run code in development server
 http://127.0.0.1:8000/ -> website link
+Admin:
+email-suyog@gmail.com
+name-suyog
+password-suyog
