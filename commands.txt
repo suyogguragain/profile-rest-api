@@ -1,0 +1,11 @@
+vagrant init ubuntu/bionic64        #initilie server
+vagrant up                          #download base image
+vagrant ssh                         # to connect to server
+cd /vagrant                         #everything in this directory is synchronized with our local machine
+python -m venv ~/env                # virtual environment
+source ~/env/bin/activate
+deactivate
+django-admin startproject profiles_project .
+python manage.py startapp profiles_api
+python manage.py runserver 0.0.0.0:8000     # run code in development server
+http://127.0.0.1:8000/ -> website link
