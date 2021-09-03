@@ -13,3 +13,18 @@ Admin:
 email-suyog@gmail.com
 name-suyog
 password-suyog
+
+#####################DSF
+##### APIViews
+###-->When to use it?
+--Perfect for implementing complex logic
+--Need full control over the logic
+--Processing files and rendering a synchrnous response
+--You are calling other APIs/services
+--Accessing local files or data
+#####################
+##### ViewSets
+###-->When to use it?
+--
+
+
