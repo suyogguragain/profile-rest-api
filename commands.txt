@@ -31,3 +31,11 @@ password-suyog
 --Working with standard data structures
 
 chmod +x deploy/*.sh
+
+####Ubuntu server deployment
+1.connect to server
+2.curl -sL https://github.com/suyogguragain/profile-rest-api/blob/main/deploy/setup.sh | sudo bash -
+3. change settings -> AllowedHost =['ec2instancename','127.0.0.1']
+##to update script
+4. [/usr/local/apps/profiles-rest-api]sudo sh ./deploy/update.sh
+5. create superuser in server
