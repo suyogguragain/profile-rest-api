@@ -30,4 +30,4 @@ password-suyog
 --Little to no customization on the logic
 --Working with standard data structures
 
-
+chmod +x deploy/*.sh
